@@ -8,7 +8,23 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {}
+      colors: {
+        primary: {
+          1: "var(--primary_1)",
+          2: "var(--primary_2)",
+          3: "var(--primary_3)"
+        },
+        secondary: {
+          1: "var(--secondary_1)",
+          2: "var(--secondary_2)",
+          3: "var(--secondary_3)"
+        },
+        tertiary: {
+          1: "var(--tertiary_1)",
+          2: "var(--tertiary_2)",
+          3: "var(--tertiary_3)"
+        }
+      }
     }
   },
   plugins: []
